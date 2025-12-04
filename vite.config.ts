@@ -12,7 +12,7 @@ export default defineConfig({
   //   },
   // },
   server: {
-    allowedHosts: ['geral-realcap.akql5f.easypanel.host','castelodocupim.com.br'],
+    allowedHosts: ['https://geral-castelo-do-cupim.akql5f.easypanel.host','castelodocupim.com.br'],
     // this ensures that the browser opens upon server start
     open: false,
     // this sets a default port to 3000
