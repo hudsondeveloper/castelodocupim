@@ -1,5 +1,5 @@
 import { MessageCircle, Instagram } from 'lucide-react'
-
+import logo from '../assets/LOGO_CASTELO_DO_CUPIM.png'
 export default function Footer() {
   const handleWhatsAppClick = () => {
     window.open('https://wa.me/5571993070352', '_blank')
@@ -41,7 +41,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <img 
-              src="https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/logo.png" 
+              src={logo} 
               alt="Castelo do Cupim" 
               className="h-16 w-auto mx-auto md:mx-0 mb-4"
             />

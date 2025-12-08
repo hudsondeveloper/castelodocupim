@@ -1,5 +1,6 @@
 import { MessageCircle } from 'lucide-react'
-
+import logo from '../assets/LOGO_CASTELO_DO_CUPIM.png'
+import carne_suculenta from '../assets/carne_suculenta.jpg'
 export default function Hero() {
   const handleWhatsAppClick = () => {
     window.open('https://wa.me/5571993070352', '_blank')
@@ -9,7 +10,10 @@ export default function Hero() {
     <section className="relative min-h-screen overflow-hidden">
       {/* Background with gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-br from-red-900 via-red-800 to-orange-900">
-        <div className="absolute inset-0 bg-[url('https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/551741515_122095783389044727_6872233665779534861_n.jpg')] bg-cover bg-center opacity-20 mix-blend-overlay" />
+        <div 
+          className="absolute inset-0 bg-cover bg-center opacity-20 mix-blend-overlay"
+          style={{ backgroundImage: `url(${carne_suculenta})` }}
+        />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
       </div>
 
@@ -18,7 +22,7 @@ export default function Hero() {
         {/* Logo */}
         <div className="mb-8 transform hover:scale-105 transition-transform duration-300">
           <img 
-            src="https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/logo.png" 
+            src={logo} 
             alt="Castelo do Cupim" 
             className="h-92 md:h-120 w-auto drop-shadow-2xl"
           />

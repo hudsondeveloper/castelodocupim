@@ -1,11 +1,15 @@
 import KitCard from './KitCard'
+import kit1 from '../assets/KIT_1.jpg'
+import kit2 from '../assets/KIT_2.jpg'
+import kit3 from '../assets/KIT_3.jpg'
+import kit4 from '../assets/KIT_4.jpg'
 
 const kits = [
   {
     id: 1,
     name: 'Kit 1',
     people: '05 pessoas',
-    image: 'https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/559041934_122104784487044727_1320720550641329306_n.jpg',
+    image: kit1,
     items: [
       '500g Cupim Grill',
       '500g Bisteca Suína',
@@ -18,7 +22,7 @@ const kits = [
     id: 2,
     name: 'Kit 2',
     people: '06 pessoas',
-    image: 'https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/558295617_122104795179044727_5975287910563612658_n.jpg',
+    image: kit2,
     items: [
       '01 kg Cupim Grill',
       '500g Contra Filé',
@@ -32,7 +36,7 @@ const kits = [
     id: 3,
     name: 'Kit 3',
     people: '07 pessoas',
-    image: 'https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/559064153_122104786725044727_3203508223921113868_n.jpg',
+    image: kit3,
     items: [
       '01 kg Cupim Grill',
       '01 kg Contra Filé',
@@ -46,7 +50,7 @@ const kits = [
     id: 4,
     name: 'Kit 4',
     people: '08 pessoas',
-    image: 'https://mocha-cdn.com/019aeb59-3114-760b-a96b-76691564835f/551741515_122095783389044727_6872233665779534861_n.jpg',
+    image: kit4,
     items: [
       '01 kg Cupim Grill',
       '500g Alcatra',
