@@ -5,6 +5,7 @@ interface Kit {
   name: string
   people: string
   image: string
+  price: number
   items: string[]
 }
 
@@ -50,6 +51,21 @@ export default function KitCard({ kit }: KitCardProps) {
 
       {/* Content section */}
       <div className="p-6">
+        {/* Price */}
+        <div className="mb-6 text-center">
+          <div className="inline-block bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg">
+            <span className="text-sm font-semibold opacity-90" style={{ fontFamily: 'Poppins, sans-serif' }}>
+              R$
+            </span>
+            <span 
+              className="text-2xl font-extrabold ml-1"
+              style={{ fontFamily: 'Montserrat, sans-serif' }}
+            >
+              {kit.price.toFixed(2).replace('.', ',')}
+            </span>
+          </div>
+        </div>
+
         <ul className="space-y-3 mb-6">
           {kit.items.map((item, index) => (
             <li 

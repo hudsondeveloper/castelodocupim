@@ -10,6 +10,7 @@ const kits = [
     name: 'Kit 1',
     people: '05 pessoas',
     image: kit1,
+    price: 100.00,
     items: [
       '500g Cupim Grill',
       '500g Bisteca Suína',
@@ -23,6 +24,7 @@ const kits = [
     name: 'Kit 2',
     people: '06 pessoas',
     image: kit2,
+    price: 150.00,
     items: [
       '01 kg Cupim Grill',
       '500g Contra Filé',
@@ -37,6 +39,7 @@ const kits = [
     name: 'Kit 3',
     people: '07 pessoas',
     image: kit3,
+    price: 200.00,
     items: [
       '01 kg Cupim Grill',
       '01 kg Contra Filé',
@@ -51,6 +54,7 @@ const kits = [
     name: 'Kit 4',
     people: '08 pessoas',
     image: kit4,
+    price: 250.00,
     items: [
       '01 kg Cupim Grill',
       '500g Alcatra',
