@@ -53,7 +53,7 @@ export default function KitCard({ kit }: KitCardProps) {
       <div className="p-6">
         {/* Price */}
         <div className="mb-6 text-center">
-          <div className="inline-block bg-red-600 text-white px-6 py-3 rounded-xl shadow-lg">
+          <div className="inline-block bg-green-600 text-white px-6 py-3 rounded-xl shadow-lg">
             <span className="text-sm font-semibold opacity-90" style={{ fontFamily: 'Poppins, sans-serif' }}>
               R$
             </span>
