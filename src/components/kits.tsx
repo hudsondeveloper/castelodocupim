@@ -24,7 +24,7 @@ const kits = [
     name: 'Kit 2',
     people: '06 pessoas',
     image: kit2,
-    price: 150.00,
+    price: 170.00,
     items: [
       '01 kg Cupim Grill',
       '500g Contra Filé',
@@ -39,7 +39,7 @@ const kits = [
     name: 'Kit 3',
     people: '07 pessoas',
     image: kit3,
-    price: 200.00,
+    price: 220.00,
     items: [
       '01 kg Cupim Grill',
       '01 kg Contra Filé',
